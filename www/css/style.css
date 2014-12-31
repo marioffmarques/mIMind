@@ -1,0 +1,100 @@
+/* Empty. Add your own CSS if you like */
+
+.imgBackgroundTop
+{
+	width: 100%;
+	height: auto;
+	max-height: 280px;
+	display: block;
+    background-color:#ff0;
+    
+
+    box-shadow: 6px 9px 15px #222;
+    position: relative;
+}
+
+.IconBackgroundRound {
+    
+	box-shadow: inset 5px -90px 0 0px #111, 0px 10px 20px 7px #222;
+    border-radius: 50px;
+	margin-top: -50px;
+	margin-left: 40px;
+
+    height: 14%;
+    width: 20%;
+
+    max-width: 200px;
+    max-height: 150px;
+
+    min-height: 65px;
+    min-width: 95px;
+
+
+	position: absolute;
+}
+
+.fullBackgroundStyle{
+
+	width: 50%;
+	height: auto;
+	display: block;
+    position: relative;
+    z-index: -1;
+
+    -webkit-filter: blur(2px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+}
+
+.mainContent{
+	margin-top: 40px;
+	margin-left: 40px;
+
+	position: absolute;
+ 	border-radius: 50px;
+	width: 80%;
+
+	box-shadow: inset 5px 0px 40px 15px #555, 5px 5px 10px 5px #222;
+}
+
+.fullIconBackgroundRound
+{
+	float: left;
+
+	box-shadow: inset 5px -90px 0 0px #111, 0px 10px 20px 7px #222;
+    border-radius: 50px;
+	
+    height: 17%;
+    width: 24%;
+
+    max-width: 200px;
+    max-height: 150px;
+
+    min-height: 60px;
+    min-width: 100px;
+	z-index: 0;
+}
+
+h1
+ {
+	color: #424242;
+        font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	letter-spacing:0.1em;
+	text-align:center;
+	margin: 20px auto 2px 2px;
+	text-transform: lowercase;
+	line-height: 100%;
+	font-size: 20pt;
+	font-variant: small-caps;
+}
+
+h3
+{
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+		font-size: 14px;
+		padding-left: 20px;
+		text-transform: uppercase;
+		color: #444;
+		text-align:center;
+}
